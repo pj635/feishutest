@@ -1,20 +1,7 @@
 import pytest
-import yaml
 import allure
-from selenium import webdriver
 
 from feishutest.web.page.mainPage import MainPage
-
-
-
-# #获取页面cookies
-# def test_get_cookies():
-#     driver = webdriver.Chrome()
-#     driver.get('https://e1sm0k24i2.feishu.cn/calendar/week')
-#     input("please input enter to continue")
-#     cookie = driver.get_cookies()
-#     with open("../web/cookie_data.yaml", "w", encoding="UTF-8") as f:
-#         yaml.dump(cookie, f)
 
 @allure.feature("日历页面测试用例集")
 class Test_Calendar:
