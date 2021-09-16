@@ -1,72 +1,72 @@
 - domain: .feishu.cn
-  expiry: 1632384296
+  expiry: 1633100475
   httpOnly: true
   name: t_beda37
   path: /
   secure: true
-  value: a41b0c9d1d7af692873591a53ad88cb25a532e9a2d83d64cf1399468d31f1f2a
+  value: b57d501b2dd6b62ca022fb1dbff538979c62baf3e4f4b5a8c6501cece0b960d6
 - domain: .feishu.cn
-  expiry: 1632384296
+  expiry: 1633100475
   httpOnly: false
   name: swp_csrf_token
   path: /
   secure: true
-  value: 3ca41d58-54b2-4715-88f2-3210f7631811
+  value: 0f72ec17-ad1d-41a2-b492-6db9da74bfff
 - domain: .feishu.cn
-  expiry: 2577168277
+  expiry: 2577884452
   httpOnly: true
   name: fid
   path: /
   secure: false
-  value: b8cffb65-e988-4619-95f5-b85bbda60d36
+  value: ac753303-9fc2-4566-866d-e7eeea16baee
 - domain: .e1sm0k24i2.feishu.cn
-  expiry: 1638864294
+  expiry: 1639580470
   httpOnly: false
   name: MONITOR_WEB_ID
   path: /
   secure: false
-  value: b0a8850c-da42-4931-afbc-171765c7eb1c
+  value: fee92791-6e5b-4700-8b57-0ed6dd45e629
 - domain: .feishu.cn
-  expiry: 3778571916
+  expiry: 3779288090
   httpOnly: true
   name: trust_browser_id
   path: /
   secure: false
-  value: 162cfeaf-c30d-46d5-9395-d7c25bb8c04d
+  value: 56616ad7-3c3f-45e3-be13-02c64db55763
 - domain: .feishu.cn
-  expiry: 1694160290
+  expiry: 1694876466
   httpOnly: true
   name: session
   path: /
   sameSite: None
   secure: true
-  value: XN0YXJ0-100f7e84-36e2-4537-a5bf-4e192bf93a1g-WVuZA
+  value: XN0YXJ0-94654316-2e58-4ec7-8572-96ddbc5c0bag-WVuZA
 - domain: .feishu.cn
-  expiry: 1662624269
+  expiry: 1663340442
   httpOnly: false
   name: locale
   path: /
   secure: false
   value: zh-CN
 - domain: .feishu.cn
-  expiry: 1631261069
+  expiry: 1631977242
   httpOnly: false
   name: landing_url
   path: /
   secure: false
   value: https://passport.feishu.cn/suite/passport/page/login/?app_id=1&redirect_uri=https%3A%2F%2Fwww.feishu.cn%2Fcalendar%2Fweek
 - domain: .feishu.cn
-  expiry: 1638864270
+  expiry: 1639580444
   httpOnly: false
   name: __tea__ug__uid
   path: /
   secure: false
-  value: '7005470758634571305'
+  value: '7008546707344885278'
 - domain: .feishu.cn
-  expiry: 1694160268
+  expiry: 1694876441
   httpOnly: true
   name: passport_web_did
   path: /
   sameSite: None
   secure: true
-  value: '7005470764468338689'
+  value: '7008546709198340124'
