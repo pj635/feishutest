@@ -26,11 +26,11 @@ class Test_Calendar:
 
     @allure.story("删除日历用例")
     def test_delete_calendar(self):
-        calendar_list = self.calendarPage.add_calendar('delete1').pause(2).get_calendar_list()
+        calendar_list = self.calendarPage.add_calendar('delete1').pause(5).get_calendar_list()
         assert 'delete1' in calendar_list
-        calendar_list = self.calendarPage.add_calendar('delete2').pause(2).get_calendar_list()
+        calendar_list = self.calendarPage.add_calendar('delete2').pause(5).get_calendar_list()
         assert 'delete2' in calendar_list
-        calendar_list = self.calendarPage.add_calendar('delete3').pause(2).get_calendar_list()
+        calendar_list = self.calendarPage.add_calendar('delete3').pause(5).get_calendar_list()
         assert 'delete3' in calendar_list
         self.calendarPage.delete_all_calendar()
 
